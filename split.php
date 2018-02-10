@@ -35,11 +35,12 @@
 	    fclose($fileHandle);
 	}
 
-	#Parámetro 1: Ruta del fichero a dividir, Parámetro 2: Cantidad de partes
+	
 	
 	if (isset($_GET))
 		if (!empty($_GET['file']) && is_file($_GET['file']))
 			if (!empty($_GET['parts']) && is_numeric($_GET['parts']))
+				#Parámetro 1: Ruta del fichero a dividir, Parámetro 2: Cantidad de partes
 				splitFile($_GET['file'], $_GET['parts']);
 			else
 				echo "Write the number of parts: split.php?file=".$_GET['file']."&parts=#";
