@@ -35,8 +35,7 @@
 	    fclose($fileHandle);
 	}
 
-	
-	
+	#Verificación de los parámetros de la variable global GET
 	if (isset($_GET))
 		if (!empty($_GET['file']) && is_file($_GET['file']))
 			if (!empty($_GET['parts']) && is_numeric($_GET['parts']))
