@@ -24,7 +24,7 @@ Para utilizar este proyecto deberá tener instalado el siguiente servicio y herr
 
 ```
 1- Apache 2		|		NGinx
-2- PHP 4.3.0 	| >  superiores
+2- PHP 4.3.0 		| >  superiores
 3- Git			| Descargar el paquete del proyecto.
 ```
 Para no complicarse pueden instalar algún gestor de paquetes como WAMP(Windows), LAMPP (Linux) o XAMPP (Todas las plataformas).
@@ -47,7 +47,9 @@ No existen formularios elaborados, sólo el algoritmo, por lo tanto la informaci
 Seleccione el archivo a cortar, cópielo en la raíz del proyecto y luego ejecute el proyecto en el navegador de la siguiente manera.
 
 * **Parámetros** - *file=complete_document.pdf, parts=3* - [split.php]
+```
 https://127.0.0.1/Split-Files/split.php?file=complete_document.pdf&parts=3
+```
 
 ```
 split.php 	= Script que ejecuta el algoritmo de cortado.
@@ -60,7 +62,9 @@ Se creará un directorio con el nombre del archivo donde guardará las partes as
 Los ficheros que se desean unir deben estar escritos con el mismo nombre del directorio, obviamente, se tendrá que enumerar esos ficheros, ejemplo: document/document1.pdf, document/document2.pdf, etc.
 
 * **Parámetros** - *dirname=complete_document, type=pdf* - [link.php]
+```
 https://127.0.0.1/Split-Files/link.php?dirname=complete_document&type=pdf
+```
 
 ```
 link.php 	= Script que ejecuta el algoritmo para unir.
@@ -71,13 +75,15 @@ Se creará un el fichero único en la raíz del proyecto, con el nombre del dire
 
 Esta acción se puede hacer con cualquier fichero, con cualquier formato, no se preocupen si los ficheros multimedia que son acortados no funcionan individualmente, es normal, no pueden ejecutarse porque tienen cabeceras que las necesitan los demás, pero claro, si se vuelve a unir, todo funcionará con normalidad. Los ficheros de tipo texto, si podrán ser ejecutados con toda normalidad.
 
-##Authors
+## Authors
 
 * **Jerson A. Martínez M.** - *Ing. Telemática (Redes, Telecomunicaciones y Desarrollo de Software)* - [LinkedIn]
 https://www.linkedin.com/in/jersonmartinezsm/
 
-* **Side Master** - *Formador en YouTube (Redes, Telecomunicaciones y Desarrollo de Software)* - [Channel]
+* **Side Master** - *Formador en YouTube | Canal de contenido variado sobre Informática (Shell Script, Programación, Hacking, Networking, etc.)* - [Channel 1]
+
 https://www.youtube.com/user/sidemastersupremo/
 
-* **Core Stack** - *Formador en YouTube | Canal de contenido variado sobre Informática (Shell Script, Programación, Hacking, Networking, etc.)* - [Channel] *.
+* **Core Stack** - *Formador en YouTube | Canal de contenido variado sobre Informática (Shell Script, Programación, Hacking, Networking, etc.)* - [Channel 2]
+
 https://www.youtube.com/user/gvideosmtutorialesgm
