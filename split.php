@@ -30,9 +30,20 @@
 	        fclose($filePartNew);
 	    }
 
+	    echo "Completed...";
 	    /*Se cierra el fichero original*/
 	    fclose($fileHandle);
 	}
 
 	#Parámetro 1: Ruta del fichero a dividir, Parámetro 2: Cantidad de partes
-	splitFile($_SERVER['DOCUMENT_ROOT']."/splitfile/Document.pdf", 2);
+	
+	if (isset($_GET))
+		if (!empty($_GET['file']) && is_file($_GET['file']))
+			if (!empty($_GET['parts']) && is_numeric($_GET['parts']))
+				splitFile($_GET['file'], $_GET['parts']);
+			else
+				echo "Write the number of parts: split.php?file=".$_GET['file']."&parts=#";
+		else
+			echo "Enter the file path: split.php?file=C:/xampp/htdocs/Split-Files/document/test.pdf&parts=#";
+	else
+		echo "URL type GET not found.";
