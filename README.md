@@ -75,6 +75,10 @@ Se creará un el fichero único en la raíz del proyecto, con el nombre del dire
 
 Esta acción se puede hacer con cualquier fichero, con cualquier formato, no se preocupen si los ficheros multimedia que son acortados no funcionan individualmente, es normal, no pueden ejecutarse porque tienen cabeceras que las necesitan los demás, pero claro, si se vuelve a unir, todo funcionará con normalidad. Los ficheros de tipo texto, si podrán ser ejecutados con toda normalidad.
 
+### Modo de uso en vídeo
+* **Jerson A. Martínez M.** - *Side Master* - [YouTube Chennel]
+https://www.youtube.com/watch?v=XhepuJpxBSQ
+
 ## Authors
 
 * **Jerson A. Martínez M.** - *Ing. Telemática (Redes, Telecomunicaciones y Desarrollo de Software)* - [LinkedIn]
